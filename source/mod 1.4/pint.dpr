@@ -108,11 +108,7 @@
   The defaults are:
   WRDSIZ32       - 32 bit compiler.
 }
-{$IFDEF CPU64BITS}
-{$DEFINE WRDSIZ64}
-{$ELSE}
 {$DEFINE WRDSIZ32}
-{$ENDIF}
 
 program pcode(Input, Output, prd, prr);
 {$APPTYPE Console}
